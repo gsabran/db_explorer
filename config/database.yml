@@ -1,17 +1,14 @@
 development:
-  adapter: mysql2
+  adapter: postgresql
+  encoding: unicode
   database: db_explorer
-  username: root
-  password:
 
 test:
-  adapter: mysql2
+  adapter: postgresql
+  encoding: unicode
   database: db_explorer_test
-  username: root
-  password:
 
 production:
-  adapter: mysql2
+  adapter: postgresql
+  encoding: unicode
   database: db_explorer
-  username: root
-  password:
